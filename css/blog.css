@@ -1,0 +1,491 @@
+body {
+    font-family: "IBM Plex Sans", sans-serif;
+    background-color: rgba(0, 0, 0, .1);
+}
+
+h2 {
+    margin: 20px auto 80px;
+    font-size: 38px;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    color: #6EABAB;
+}
+
+details {
+    width: 75%;
+    min-height: 5px;
+    max-width: 700px;
+    padding: 20px 70px 20px 45px;
+    margin: 0 auto;
+    position: relative;
+    font-size: 22px;
+    border: 1px solid #6EABAB;
+    border-radius: 15px;
+    box-sizing: border-box;
+    transition: all .3s;
+}
+
+details+details {
+    margin-top: 20px;
+}
+
+details[open] {
+    min-height: 50px;
+    background-color: #f6f7f8;
+    box-shadow: 2px 2px 20px #6EABAB;
+    padding: 30px 70px 10px 45px;
+}
+
+details p {
+    padding-top: 1rem;
+    color: #96999d;
+    font-size: medium;
+    font-weight: 300;
+}
+
+summary {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+summary:focus {
+    outline: none;
+}
+
+summary:focus::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 0 5px #6EABAB;
+}
+
+summary::-webkit-details-marker {
+    display: none
+}
+
+.control-icon {
+    fill: #6EABAB;
+    transition: .3s ease;
+    pointer-events: none;
+}
+
+.control-icon-close {
+    display: none;
+}
+
+details[open] .control-icon-close {
+    display: initial;
+    transition: .3s ease;
+}
+
+details[open] .control-icon-expand {
+    display: none;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    background-color: #6EABAB;
+}
+
+.container {
+    background: linear-gradient(white, #6EABAB);
+}
+
+.faq-section {
+    background: #fdfdfd;
+    min-height: 100vh;
+    padding: 10vh 0 0;
+}
+
+.col-md-6 offset-md-3 {
+    background-color: #6EABAB;
+}
+
+.faq-title h2 {
+    position: absolute;
+    margin-bottom: 45px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.faq-title h2::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    width: 60px;
+    height: 2px;
+    background: #6EABAB;
+    bottom: -25px;
+    margin-left: -30px;
+}
+
+.faq-title p {
+    padding: 0 190px;
+    margin-bottom: 10px;
+}
+
+.faq {
+    background: #FFFFFF;
+    box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 4px;
+}
+
+.faq .card {
+    border: none;
+    background: none;
+    border-bottom: 1px dashed #CEE1F8;
+}
+
+.faq .card .card-header {
+    padding: 0px;
+    border: none;
+    background: none;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.faq .card .card-header:hover {
+    background: #6EABAB;
+    padding-left: 10px;
+}
+
+.faq .card .card-header .faq-title {
+    width: 100%;
+    text-align: left;
+    padding: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #3B566E;
+    text-decoration: none !important;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.faq .card .card-header .faq-title .badge {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 14px;
+    float: none;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    text-align: center;
+    background: #6EABAB;
+    color: #fff;
+    font-size: 12px;
+    margin-right: 20px;
+}
+
+.faq .card .card-body {
+    padding: 30px;
+    padding-left: 35px;
+    padding-bottom: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #454545;
+    line-height: 28px;
+    letter-spacing: 1px;
+    border-top: 1px solid #F3F8FF;
+}
+
+.faq .card .card-body p {
+    margin-bottom: 14px;
+}
+
+@media (max-width: 991px) {
+    .faq {
+        margin-bottom: 30px;
+    }
+    .faq .card .card-header .faq-title {
+        line-height: 26px;
+        margin-top: 10px;
+    }
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------- */
+
+
+/*
+.reviews {
+width: 600px;
+height: 150px;
+overflow: hidden;
+background-color: #fff;
+border-radius: 5px;
+margin: 50px auto;
+position: relative;
+box-shadow: 0 0 10px -2px #ddd;
+}
+
+.panel {
+width: 100%;
+max-height: 100%;
+position: absolute;
+}
+
+.PanelAct {
+left: 0;
+}
+
+.panel img {
+width: 100px;
+height: 100px;
+text-align: center;
+float: left;
+margin: 25px;
+}
+
+
+.panel:nth-of-type(1) img {
+background: #12aedb;
+}
+
+.panel:nth-of-type(2) img {
+background: #db4646;
+}
+
+.panel:nth-of-type(3) img {
+background: #96c465;
+}
+
+
+.panel p {
+float: left;
+width: 420px;
+clear: right;
+text-align: justify;
+margin: 25px 0 10px 0;
+font-size: 14px;
+color: #aaa;
+line-height: 1.2em
+}
+
+.panel h6 {
+float: left;
+width: 200px;
+font-size: 14px;
+color: #999;
+font-weight: bold;
+font-style: italic;
+}
+
+.control {
+position: absolute;
+bottom: 20px;
+right: 30px;
+}
+
+.control span {
+background-color: rgba(0, 0, 0, 0.1);
+padding: 5px;
+display: inline-block;
+vertical-align: top;
+margin-left: 5px;
+border-radius: 50%;
+cursor: pointer;
+transition: 0.3s ease-in
+}
+
+.ContActive {
+background-color: #bbb !important;
+* {
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family: 'Montserrat', sans-serif;
+}
+
+
+body {
+font-family: 'Montserrat', sans-serif;
+color: #000000;
+background-color: #6EABAB;
+}
+
+.container {
+background: linear-gradient(white, #6EABAB);
+}
+
+.faq-section {
+background: #fdfdfd;
+min-height: 100vh;
+padding: 10vh 0 0;
+}
+
+.col-md-6 offset-md-3 {
+background-color: #6EABAB;
+}
+
+.faq-title h2 {
+position: relative;
+margin-bottom: 45px;
+text-align: center;
+font-weight: 600;
+line-height: 1;
+}
+
+.faq-title h2::before {
+content: "";
+position: absolute;
+left: 50%;
+width: 60px;
+height: 2px;
+background: #6EABAB;
+bottom: -25px;
+margin-left: -30px;
+}
+
+.faq-title p {
+padding: 0 190px;
+margin-bottom: 10px;
+}
+
+.faq {
+background: #FFFFFF;
+box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.06);
+border-radius: 4px;
+}
+
+.faq .card {
+border: none;
+background: none;
+border-bottom: 1px dashed #CEE1F8;
+}
+
+.faq .card .card-header {
+padding: 0px;
+border: none;
+background: none;
+-webkit-transition: all 0.3s ease 0s;
+-moz-transition: all 0.3s ease 0s;
+-o-transition: all 0.3s ease 0s;
+transition: all 0.3s ease 0s;
+}
+
+.faq .card .card-header:hover {
+background: #6EABAB;
+padding-left: 10px;
+}
+
+.faq .card .card-header .faq-title {
+width: 100%;
+text-align: left;
+padding: 0px;
+padding-left: 30px;
+padding-right: 30px;
+font-weight: 400;
+font-size: 15px;
+letter-spacing: 1px;
+color: #3B566E;
+text-decoration: none !important;
+-webkit-transition: all 0.3s ease 0s;
+-moz-transition: all 0.3s ease 0s;
+-o-transition: all 0.3s ease 0s;
+transition: all 0.3s ease 0s;
+cursor: pointer;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.faq .card .card-header .faq-title .badge {
+display: inline-block;
+width: 20px;
+height: 20px;
+line-height: 14px;
+float: none;
+-webkit-border-radius: 100px;
+-moz-border-radius: 100px;
+border-radius: 100px;
+text-align: center;
+background: #6EABAB;
+color: #fff;
+font-size: 12px;
+margin-right: 20px;
+}
+
+.faq .card .card-body {
+padding: 30px;
+padding-left: 35px;
+padding-bottom: 16px;
+font-weight: 400;
+font-size: 16px;
+color: #454545;
+line-height: 28px;
+letter-spacing: 1px;
+border-top: 1px solid #F3F8FF;
+}
+
+.faq .card .card-body p {
+margin-bottom: 14px;
+}
+
+*/
+
+
+/* .hero {
+width: 100%;
+height: 100vh;
+background: #f6fbff;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+
+h1 {
+font-size: 30px;
+position: relative;
+margin-bottom: 80px;
+}
+
+h1::after {
+content: '';
+width: 150px;
+height: 3px;
+background: linear-gradient(to right, #f44336, #9f4db5);
+position: absolute;
+bottom: -20px;
+left: 50%;
+transform: translateX(-50%);
+}
+
+.riview-box {
+width: 90%;
+max-width: 700px;
+height: 300px;
+border-radius: 10px;
+box-shadow: -10px 10px 40px rgba(0, 0, 0, 0.25);
+position: relative;
+} */
+
