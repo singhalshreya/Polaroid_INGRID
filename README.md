@@ -34,6 +34,8 @@ Overall, a 3D rental system using AR has the potential to revolutionize the way 
 Click [here](https://polaroid-ingrid.vercel.app/) to go to our website.
 The website was deployed on versel.
 
+##Video Demo
+https://youtu.be/O8vYwUwPDRQ
 
 ## PDFs
 Presentation Link: Click [here](https://www.canva.com/design/DAFWcepYfp4/djuvhLjHUa4EJkOVAUSYaQ/edit) to go to our presentation.
