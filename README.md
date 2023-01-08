@@ -1,4 +1,5 @@
-# Ingrid
+# INGRID
+## Online 3D viewing rental platform!
 
 ## Introduction
 3D rental system using augmented reality (AR) could revolutionize the way we rent and use physical objects. Ingrid is a unique idea as traditionally, renting an object usually involves physically going to a store or showroom, selecting the item, and then either taking it home or having it delivered. With a 3D rental system using AR, the process could be streamlined and made much more convenient for both the renter and the owner.
