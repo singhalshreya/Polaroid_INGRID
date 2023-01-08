@@ -307,7 +307,7 @@ text-align: center;
 }
 
 .collapsible {
-    background-color: rgb(157, 157, 161);
+    background-color: rgb(50, 50, 53);
     color: white;
     cursor: pointer;
     padding: 1px;
@@ -667,7 +667,7 @@ text-align: center;
 
 .subtitles2 {
     margin-bottom: -70px;
-    margin-left: 10.7cm;
+    margin-left: 2.5cm;
 }
 
 .column {
