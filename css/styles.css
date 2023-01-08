@@ -302,15 +302,15 @@ text-align: center;
 .chat-bar-collapsible {
     position: fixed;
     bottom: 0;
-    right: 50px;
+    right: 30px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 .collapsible {
-    background-color: rgb(50, 50, 53);
+    background-color: rgb(157, 157, 161);
     color: white;
     cursor: pointer;
-    padding: 18px;
+    padding: 1px;
     width: 300px;
     text-align: left;
     outline: none;
