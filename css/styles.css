@@ -1,6 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    color: #000000;
+    color: rgb(50, 50, 53);
 }
 h1,
 h2,
@@ -128,6 +128,7 @@ nav li a {
 
 .about {
     padding-top: 30%;
+    color:rgb(50, 50, 53);
 }
 
 .img-wrapper img {
